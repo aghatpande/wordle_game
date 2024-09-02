@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wordle Game</h1>
+        <p>You have <span id="attempts">6</span> attempts to guess the word.</p>
+        <p>Instructions:</p>
+        <ul>
+            <li>Correct letter in the correct position will be shown in <span class="correct">[brackets]</span>.</li>
+            <li>Correct letter in the wrong position will be shown in <span class="misplaced">(parentheses)</span>.</li>
+            <li>Incorrect letters will be shown as is.</li>
+        </ul>
+        <input type="text" id="guessInput" placeholder="Enter your guess" maxlength="5">
+        <button onclick="makeGuess()">Submit Guess</button>
+        <div id="results"></div>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

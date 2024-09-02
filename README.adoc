@@ -1,0 +1,45 @@
+= Word Guessing Game
+
+== Overview
+This is a simple word guessing game where the player has to guess a secret 5-letter word within 6 attempts. The game provides feedback on each guess, indicating which letters are correct and in the correct position, which letters are correct but in the wrong position, and which letters are incorrect.
+
+== Features
+- Fetches a random 5-letter word from an API.
+- Provides feedback on each guess.
+- Tracks the number of attempts.
+- Displays a message when the word is guessed correctly or when attempts run out.
+
+== Files
+- `styles.css`: Contains the CSS styles for the game.
+- `script.js`: Contains the JavaScript logic for fetching the word, handling guesses, and updating the UI.
+
+== CSS Styles
+The CSS file defines styles for the body, container, and result elements. Key classes include:
+- `.correct`: Styles for correct letters in the correct position.
+- `.misplaced`: Styles for correct letters in the wrong position.
+- `#results`: Styles for the results section.
+
+== JavaScript Logic
+The JavaScript file includes the following key functions:
+- `fetchRandomWord`: Fetches a random 5-letter word from an API.
+- `displayGuessResult`: Compares the guess with the secret word and returns formatted feedback.
+- `makeGuess`: Handles the guess input, updates the UI, and tracks attempts.
+
+== Usage
+1. Open the HTML file in a web browser.
+2. Enter a 5-letter word in the input field and submit your guess.
+3. The game will provide feedback on each guess and track the number of attempts.
+
+== Example Code
+Here are some key parts of the code:
+
+=== CSS (styles.css)
+
+== Dependencies
+- None. This project uses vanilla JavaScript and CSS.
+
+== Authors
+- Hari and Ambarish Ghatpande
+
+== License
+- This project is licensed under the MIT License.
