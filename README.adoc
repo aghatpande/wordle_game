@@ -30,16 +30,11 @@ The JavaScript file includes the following key functions:
 2. Enter a 5-letter word in the input field and submit your guess.
 3. The game will provide feedback on each guess and track the number of attempts.
 
-== Example Code
-Here are some key parts of the code:
-
-=== CSS (styles.css)
-
 == Dependencies
 - None. This project uses vanilla JavaScript and CSS.
 
 == Authors
-- Hari and Ambarish Ghatpande
+- My teen Hari created this game as a trial of Cursor AI.
 
 == License
 - This project is licensed under the MIT License.
