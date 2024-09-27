@@ -1,4 +1,4 @@
-= Word Guessing Game
+= Word Guessing Game[https://aghatpande.github.io/wordle_game/]
 
 == Overview
 This is a simple word guessing game where the player has to guess a secret 5-letter word within 6 attempts. The game provides feedback on each guess, indicating which letters are correct and in the correct position, which letters are correct but in the wrong position, and which letters are incorrect.
